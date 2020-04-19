@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/be3b3dd471.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Hakkımda</title>
+</head>
+
+<body>
+
+  <div class="icon-table">
+    <div class="s-m">
+       <a href="https://www.instagram.com/efecanpinar/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/efecanpinar/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/efecanpinar"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+  <div class="baslik">
+    <a href="#"><span class="yazi">Efecan Pınar</span></a>
+    <hr />
+  </div>
+
+  <nav>
+    <div class="menu-bar">
+      <ul>
+        <li class="active"><a href="/index.html"><i class="fas fa-home"></i> ANASAYFA</a></li>
+        <li><a href="/mycity.html"><i class="fas fa-building"></i><br>ŞEHRİM</a></li>
+        <li><a href="#"><i class="fa fa-user"></i>HAKKIMDA</a></li>
+        <li><a href="/contact.html"><i class="fa fa-phone-alt"></i><br>İLETİŞİM</a></li>
+        <li><a href="#"><i class="fas fa-sign-in-alt"></i><br> GİRİŞ YAP</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

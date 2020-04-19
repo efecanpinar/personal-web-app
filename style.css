@@ -1,0 +1,183 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Sayfa arka planı*/
+body{
+    background-color:	#FFFFFF	;
+    
+}
+/* iconlar arka planı*/
+.s-m{
+    background-color:#e6e6e6	;
+    height: 50px; 
+}
+/* icon linki ayarlama*/
+.s-m a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    color: black;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+    padding: 2px;
+    margin-top: 4px;
+}
+/* icon hoverı ayarlama*/
+.s-m a:hover{
+    background: brown;
+    text-decoration: none;
+}
+
+/* Ana baslik  posizyon*/
+.baslik{
+    position: relative;
+    text-align: center;
+    margin-top: 70px;;
+}
+
+/* Ana baslık cizgileri*/
+.baslik hr {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+  }
+  /* Ana baslik yazi tipi vs*/
+  .baslik .yazi {
+    background: #fff;
+    padding: 0 10px;
+    font-family: "Brush Script MT", cursive; 
+    font-size: 50px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 23px;
+    position: relative;
+    font-style: italic;
+    color: brown;
+    z-index: 1;
+  }
+
+/* Ana baslik üzerine gelme*/
+  .baslik :hover{
+      color: black;
+      text-decoration: none;
+  }
+
+  /* Menu konum*/
+.menu-bar{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+/* Menu tip*/
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+/* Menu boyut*/
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Menu yazı ayarları*/
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+/* Menu ustune gelince*/
+.active, .menu-bar ul li :hover{
+    color: brown;
+    border-radius: 3px;
+}
+
+/* Ana resim ayar*/
+img{
+
+        width:1000px;
+        height: 550px;
+        display: table;
+        position: relative;
+        overflow: hidden;
+        text-align:center;
+        margin:0 auto;
+}
+
+/* Malatya baslık ayar*/
+.baslik2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 17px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+
+.kategori1{
+    background-color:#D3D3D3;
+    height: 40px; 
+
+}
+
+.kategori1 .yazikategori{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 17px;
+
+
+}
+.kategori1 .menukategori{
+    font-size: 18px;
+    font-weight: bolder;
+    font: normal;
+
+}
+
+
+.card{
+    margin-top: 30px;
+}
+
+.baslik3{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+
+.kucukbaslik{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.gezilcekbaslik h1{
+    text-align: left;
+}
+
+.leventvadisifoto img{
+ width: 750px;
+ height: 400px;
+}
+
+.login-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: brown;
+    font-weight: bolder;
+}
+
+
