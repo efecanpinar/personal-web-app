@@ -10,87 +10,63 @@ const clearBtn = document.getElementsByClassName('btn btn-default');
 const submitBtn = document.getElementsByClassName('btn btn-primary submit');
 const form = document.getElementById('form');
 
-form.addEventListener("submit", (e)=>{
+form.addEventListener("submit", (e) => {
   validation(e);
 
-  e.preventDefault();
+
 });
 
 
-function showAlert(type, message)
- {
+function showAlert(type, message) {
   const alertDanger = document.createElement("div");
-  alertDanger.className="alert alert-danger";
+  alertDanger.className = "alert alert-danger";
   formGroupMessage.appendChild(alertDanger);
   alertDanger.textContent = message;
- };
+};
 
 window.setTimeout(
   setInterval(
-    (e)=>{
+    (e) => {
       var alerts = document.getElementsByClassName('alert-danger');
-      if(alerts.length != 0){
-        for (var i=0; i<alerts.length; i++) {
+      if (alerts.length != 0) {
+        for (var i = 0; i < alerts.length; i++) {
           alerts[i].remove();
         }
       }
     }, 3000));
 
 var mailRegex = new RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
-function validation(e)
-{
-  e.preventDefault();
-  if(name.value === "")
-  {
+function validation(e) {
+
+  if (name.value === "") {
+    e.preventDefault();
     showAlert("danger", "İsim alanı boş bırakılamaz.");
   }
 
-  if(email.value === "")
-  {
+  if (email.value === "") {
+    e.preventDefault();
     showAlert("danger", "Email alanı boş bırakılamaz.");
   }
   if (mailRegex.test(email.value) == false) {
+    e.preventDefault();
     showAlert("danger", "Format hatalı bir mail.");
   }
 
-  if(subject.value === "")
-  {
+  if (subject.value === "") {
+    e.preventDefault();
     showAlert("danger", "Konu alanı boş bırakılamaz.");
   }
 
-  if(message.value === "")
-  {   
+  if (message.value === "") {
+    e.preventDefault();
     showAlert("danger", "Mesaj alanı boş bırakılamaz.");
   }
 }
 
 
-//////////////////////////////////////////////////////////
-
-/*const mail = document.getElementById('mail');
-const alertPlace = document.getElementsByClassName("input-group mb-3")[2];
-const form1 = document.getElementById('login-form');
-form1.addEventListener("submit", (e)=>{
-  emailValidation(e);
-
-  e.preventDefault();
-});
 
 
 
-function showAlert(type, message)
- {
-  const alertDanger = document.createElement("div");
-  alertDanger.className="alert alert-danger";
-  alertPlace.appendChild(alertDanger);
-  alertDanger.textContent = message;
- };
 
-function emailValidation(e)
-{
-  if (mailRegex.test(mail.value) == false) {
-    showAlert("danger", "Format hatalı bir mail.");
-  }
 
-  e.preventDefault();
-}*/
+

@@ -12,7 +12,7 @@ body{
 }
 /* iconlar arka planı*/
 .s-m{
-    background-color:#e6e6e6	;
+    background-color:#f0f0f0	;
     height: 50px; 
 }
 /* icon linki ayarlama*/
@@ -173,6 +173,7 @@ img{
  height: 400px;
 }
 
+/* Login başlığı */
 .login-title{
     text-align: center;
     margin-bottom: 30px;
@@ -180,4 +181,59 @@ img{
     font-weight: bolder;
 }
 
+.page-footer{
+    background-color: #f0f0f0;
+    height: 280px;
+}
+
+.font-small
+{
+    text-align: center;
+
+}
+
+.mb-5 a{
+    color:black;
+    display: inline-flex;
+    font-size: 24px;
+    
+}
+.active, .mb-5 :hover{
+    color:brown;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.name{
+    text-align: center;
+}
+
+.footer-copyright
+{
+    margin-top: 50px;
+}
+
+.news{
+    text-align: left;
+    color: brown;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.welcome{
+    text-align: cemter;
+    color: black;
+    font-family:"Brush Script MT", cursive;
+    font-size: 70px;
+}
+
+.baslikdecathlon{
+    text-align: center;
+}
+
+.yazidecathlon{
+    text-align: center;
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
